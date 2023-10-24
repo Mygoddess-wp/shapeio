@@ -1,0 +1,19 @@
+package:
+  name: shapeio
+  version: "0.0.1"
+  
+  
+source:
+    git_url: https://bayers@bitbucket.org/shjoshi/shapeio.git
+requirements:
+    build:
+        - python
+    run:
+        - python
+        - pandas
+        - vtk
+        - numpy
+        - beautiful-soup
+
+build:
+     number: 1
